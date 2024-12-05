@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header {
+    background-image: linear-gradient(#3BD27F, #1A5C37);
+    font-family: sans-serif;
+    color: white;
+    padding: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.24);
+    }
+
+h1#principal {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+header > p {
+    text-align: center;
+}
+
+header > nav > a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header > nav > a:hover {
+    font-weight: bolder;
+    color: lightseagreen;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #84E1AD;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+
+h1 {
+    text-align: left;
+    font-family: 'idroid';
+    color: #1A5C37;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'idroid';
+    color: #1A5C37;
+    background-image: linear-gradient(90deg, rgba(151, 255, 151, 0.774), rgba(255, 255, 255, 0));
+}
+
+h3 {
+    color: white;
+    background-color: #3F9D68;
+    padding: 15px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0px;
+}
+.video {
+    margin: auto;
+    width: 800px;
+   text-align: center;
+   padding: 25px;
+   background-color: #1A5C38;
+}
+
+.extra {
+    text-align: justify;
+    padding: 0px;
+    margin: 15px;
+    background-color: #C5EBD6;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1A5C38;
+    color: white;
+    padding: 1px;
+    margin-top: 15px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 25px;
+}
+
+ul {
+    display: inline-block;
+    margin-right: 15px;
+    
+}
+
+.extra1 {
+    padding: 10px;
+}
+
+strong {
+    color: #1A5C38;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > strong::after {
+    content: '\01F517'; 
+}
+
+p > strong.rodape {
+    color: white;
+    font-weight: bolder;
+}
+
+.extra0 {
+    background-color: white;
+    text-align: center;
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+    padding: 25px;
+}
